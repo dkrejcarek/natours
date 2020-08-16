@@ -1,0 +1,52 @@
+@keyframes moveInLeft {
+	0% { /* This is the starting state (load ) */
+		opacity: 0;
+		transform: translateX(-10rem); /* moves from htnl position */
+	} 
+
+	80% {
+		transform: translateX(1rem);
+	}
+
+
+	100% {
+		/*FinalStateopacity: 1; */
+		transform: translateX(0);
+
+} 
+
+}
+
+@keyframes moveInRight {
+	0% { /* This is the starting state (load ) */
+		opacity: 0;
+		transform: translateX(10rem); /* moves from html position */
+	} 
+
+	80% {
+		transform: translateX(-1rem);
+	}
+
+
+	100% {
+		/*FinalState*/opacity: 1;
+		transform: translateX(0);
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		-ms-transform: translateX(0);
+		-o-transform: translateX(0);
+	} 
+
+}
+@keyframes moveInUp {
+	0% { /* This is the starting state (load ) */
+		opacity: 0;
+		transform: translateY(10rem); /* moves from html position */
+	} 
+
+	100% { /*FinalState*/
+		opacity: 1;
+		transform: translateY(0);
+
+	} 
+}
